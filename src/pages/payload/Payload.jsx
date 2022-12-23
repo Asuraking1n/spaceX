@@ -8,8 +8,7 @@ const Payload = () => {
   const [searchItem,setSearchItem] = useState('')
   useEffect(()=>{
     dispatch(getPayloadDataSerivice())
-  },[])
-  console.log(searchItem)
+  },[dispatch])
   return (
     <div className='h-[calc(100vh-3rem)] w-[100vw] overflow-scroll  p-[2rem]'  id='home-cont'>
     <input type='text' onChange={(e)=>setSearchItem(e.target.value)} placeholder='Search by satelite name' className='h-[2.5rem] w-[100%] text-center rounded-[20px]'/>
