@@ -1,0 +1,1 @@
+export {getHistoryDataSerivice} from './getHistoryDataSerivice'
