@@ -16,9 +16,9 @@ const HistoryCard = ({data}) => {
       
 
       <div className='flex w-full items-center justify-around mt-[2rem]'>
-        <a href={data.links.wikipedia} target='_blank'><div className='flex items-center justify-center h-[2.5rem] w-[2.5rem] rounded-[50%] bg-black'><FaWikipediaW className='text-white '/></div></a>
-        <a href={data.links.reddit} target='_blank'><div className='flex items-center justify-center h-[2.5rem] w-[2.5rem] rounded-[50%] bg-black'><FaRedditAlien className='text-white '/></div></a>
-        <a href={data.links.article} target='_blank'><div className='flex items-center justify-center h-[2.5rem] w-[2.5rem] rounded-[50%] bg-black'><RiArticleFill className='text-white '/></div></a>
+        <a href={data.links.wikipedia} target='_blank' rel="noreferrer" ><div className='flex items-center justify-center h-[2.5rem] w-[2.5rem] rounded-[50%] bg-black'><FaWikipediaW className='text-white '/></div></a>
+        <a href={data.links.reddit} target='_blank' rel="noreferrer" ><div className='flex items-center justify-center h-[2.5rem] w-[2.5rem] rounded-[50%] bg-black'><FaRedditAlien className='text-white '/></div></a>
+        <a href={data.links.article} target='_blank' rel="noreferrer" ><div className='flex items-center justify-center h-[2.5rem] w-[2.5rem] rounded-[50%] bg-black'><RiArticleFill className='text-white '/></div></a>
       </div>
     </div>
   )
