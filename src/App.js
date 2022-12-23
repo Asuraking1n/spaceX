@@ -1,11 +1,20 @@
 import Home from "./pages/home/Home";
-import './App.css'
 import Navbar from "./component/navbar/Navbar";
+import './App.css'
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+import Payload from "./pages/payload/Payload";
 function App() {
   return (
     <div className="App">
-    <Navbar/>
-    <Home/>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/payload" element={<Payload />} />
+      </Routes>
+
     </div>
   );
 }
