@@ -11,7 +11,7 @@
 
 <br/>
 <br/>
-<h1>This app is not yet responsive and I didn't used custom CSS because it was not mentioned to use it. but if needed i can make it responsive and use custom CSS as well. </h1>
+<h1>This app is not yet responsive and I didn't used custom CSS because it was not mentioned to use it. But if needed i can make it responsive and use custom CSS as well. </h1>
 <br/>
 <br/>
 
